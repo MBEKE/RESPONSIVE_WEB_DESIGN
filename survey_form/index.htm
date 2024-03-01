@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>User Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Vusha Survey Form</h1>
+    <p id="description">Please help us develop the best loadboad application</p>
+    <div>
+      <form method="post" action="" id="survey-form">
+      <fieldset>
+        <label for="name" id="name-label">Enter Your Name: <input id="name" type="text" placeholder="Enter your name" required /> </label>
+        <label for="email" id="email-label">Enter Your Email: <input id="email" type="email" placeholder="example@gmail.com" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"required /> </label>
+        <label for="county" id="number-label">Enter your county code: <input id="number" type="number" name="conty" min="001" max="047" pattern="[0-9]+" placeholder="001"/></label>
+        </fieldset>
+        <fieldset>
+          <label for="category"> Which User Category are you?
+            <select id="dropdown" name="dropdown">
+              <option value="">Mzigo owner</option>
+              <option value="1">Truck owner</option>
+              <option value="2">Broker</option>
+              </select>
+        </fieldset>
+        <fieldset>
+          <legend>Do you think this will improve your logistics operations></legend>
+        <label for="yes"><input  type="radio" value="yes" name="improve?" class="inline" checked /> YES</label>
+        <label for="no"><input  type="radio" value="no"name="improve?" class="inline" /> NO</label>
+        <label for="not-sure"><input  type="radio" value="not-sure"name="improve?" class="inline" /> NOT SURE</label>
+        </fieldset>
+        <fieldset>
+          <legend>How do you currently get mizigo for your truck?(For Truck-Owners)</legend>
+          <label for="yes"><input  type="checkbox" value="clients" /> Referral</label>
+        <label for="no"><input  type="checkbox" value="clients"/> Marketing & Advertisents</label>
+        <fieldset>
+           <label for="bio">What improvements should we make?
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="your thought"></textarea>
+        </label>
+        </fieldset>
+        </fieldset>
+        <input type="submit" value="Submit" id="submit"/>
+        </form> 
+    </div>
+  </body>
+</html>

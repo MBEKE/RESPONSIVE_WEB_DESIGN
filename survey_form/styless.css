@@ -1,0 +1,18 @@
+body{
+    font-family: Tahoma;
+  background-image: url(https://i.pinimg.com/236x/38/59/30/38593081598d640c22f8ca34b6739e11.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  div{
+    background-color: teal;
+    opacity: 80%;
+    margin-left: 10px;
+  }
+  #title, #description{
+    margin: 1em auto;
+    text-align: center;
+  }
+  #survey-form{
+    font-family: Tahoma;
+  }

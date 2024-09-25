@@ -1,0 +1,84 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+  }
+  
+  #navbar header {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .nav-link {
+    display: block;
+    margin: 10px 0;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .nav-link:hover {
+    color: #007bff;
+  }
+  
+  #main-doc {
+    margin-left: 270px; /* Leave space for navbar */
+    padding: 20px;
+  }
+  
+  .main-section {
+    margin-bottom: 40px;
+  }
+  
+  header {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+  }
+  
+  code {
+    background-color: #f4f4f4;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  ul {
+    margin: 10px 0;
+    padding-left: 20px;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  /* Media query for smaller devices */
+  @media (max-width: 768px) {
+    #navbar {
+      position: relative;
+      width: 100%;
+      height: auto;
+      border-right: none;
+    }
+  
+    #main-doc {
+      margin-left: 0;
+      padding: 10px;
+    }
+  
+    .nav-link {
+      margin: 5px 0;
+    }
+  }
+  

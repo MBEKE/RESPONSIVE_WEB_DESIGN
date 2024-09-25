@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Technical Documentation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Documentation Topics</header>
+      <a href="#Introduction_to_HTML" class="nav-link">Introduction to HTML</a>
+      <a href="#CSS_Basics" class="nav-link">CSS Basics</a>
+      <a href="#JavaScript_Fundamentals" class="nav-link">JavaScript Fundamentals</a>
+      <a href="#Version_Control" class="nav-link">Version Control</a>
+      <a href="#Responsive_Design" class="nav-link">Responsive Design</a>
+    </nav>
+
+    <main id="main-doc">
+      <!-- Section 1: HTML Introduction -->
+      <section id="Introduction_to_HTML" class="main-section">
+        <header>Introduction to HTML</header>
+        <p>HTML (HyperText Markup Language) is the standard language for creating web pages.</p>
+        <p>It uses elements, tags, and attributes to structure content on the web.</p>
+        <p>HTML documents consist of a tree structure of elements.</p>
+        <p>The basic structure includes: </p>
+        <ul>
+          <li>Doctype declaration</li>
+          <li>HTML element</li>
+          <li>Head element</li>
+          <li>Body element</li>
+        </ul>
+        <code>&lt;!DOCTYPE html&gt;</code>
+        <code>&lt;html&gt;&lt;/html&gt;</code>
+      </section>
+
+      <!-- Section 2: CSS Basics -->
+      <section id="CSS_Basics" class="main-section">
+        <header>CSS Basics</header>
+        <p>CSS (Cascading Style Sheets) is used to control the style and layout of web pages.</p>
+        <p>CSS can be applied to HTML elements via inline, internal, or external methods.</p>
+        <p>CSS follows a cascading and inheritance structure, where styles can be overridden.</p>
+        <p>Common properties include:</p>
+        <ul>
+          <li>color</li>
+          <li>font-size</li>
+          <li>margin</li>
+          <li>padding</li>
+        </ul>
+        <code>body { font-family: Arial; }</code>
+      </section>
+
+      <!-- Section 3: JavaScript Fundamentals -->
+      <section id="JavaScript_Fundamentals" class="main-section">
+        <header>JavaScript Fundamentals</header>
+        <p>JavaScript is the programming language of the web.</p>
+        <p>It enables dynamic behavior on web pages and interacts with HTML elements via the DOM (Document Object Model).</p>
+        <p>Some basic concepts of JavaScript include variables, functions, and events.</p>
+        <p>Common data types in JavaScript:</p>
+        <ul>
+          <li>String</li>
+          <li>Number</li>
+          <li>Boolean</li>
+          <li>Object</li>
+        </ul>
+        <code>let greeting = "Hello, World!";</code>
+        <code>console.log(greeting);</code>
+      </section>
+
+      <!-- Section 4: Version Control -->
+      <section id="Version_Control" class="main-section">
+        <header>Version Control</header>
+        <p>Version control systems help track changes to code over time.</p>
+        <p>Git is the most commonly used version control system for development projects.</p>
+        <p>It allows developers to collaborate on projects, track revisions, and revert changes.</p>
+        <p>Common Git commands include:</p>
+        <ul>
+          <li>git init</li>
+          <li>git commit</li>
+          <li>git push</li>
+          <li>git pull</li>
+        </ul>
+        <code>git init</code>
+        <code>git commit -m "Initial commit"</code>
+      </section>
+
+      <!-- Section 5: Responsive Design -->
+      <section id="Responsive_Design" class="main-section">
+        <header>Responsive Design</header>
+        <p>Responsive design ensures that web pages adapt to different screen sizes and devices.</p>
+        <p>It uses techniques like fluid grids, flexible images, and media queries to achieve responsiveness.</p>
+        <p>A media query example:</p>
+        <code>@media (max-width: 768px) { body { font-size: 14px; } }</code>
+        <p>Responsive design improves user experience across all devices.</p>
+      </section>
+    </main>
+  </body>
+</html>
